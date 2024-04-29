@@ -3,8 +3,8 @@
 
 
 |**Nama**|**NIM**|**Kelas**|**Matkul**|
-|----|---|-----|------|
-|Muhammad Nurul Firdaus|312310495|TI.23.A5|Basis Data|
+|---------------------|----------|-------|----------|
+|Dhiyaulhaq Al Maududi|312310508|TI.23.A5|Basis Data|
 
 # Soal Latihan Praktikum
 ## Data Model Mapping
@@ -42,14 +42,14 @@ create table Mahasiswa (
     );
 ```
 
-![alt text](Screenshot/1.png)
+![1](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/aaea3a9c-094c-4140-a981-bd779e1ce07c)
 
 
 **Tampilkan hasil table :**
 
 `desc Mahasiswa;`
 
-![alt text](Screenshot/2.png)
+![2](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/7bd4d0f2-2bb6-4a2f-b6ed-dfbe88b9fb09)
 
 **2. Buat script untuk table Dosen :**
 ```
@@ -59,13 +59,13 @@ create table Dosen (
     );
 ```
 
-![alt text](Screenshot/3.png)
+![3](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/9723693b-152f-4fce-a071-7b225a79d396)
 
 **Tampilkan tabel :**
 
 `desc Dosen;`
 
-![alt text](Screenshot/4.png)
+![4](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/0a7f8eb0-7d92-4d9e-99a2-c3afc47561e8)
 
 **3. Buat script untuk Mata kuliah :**
 ```
@@ -76,13 +76,14 @@ create table Matakuliah (
     );
 ```
 
-![alt text](Screenshot/5.png)
+![5](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/7eb6a574-5fd8-463c-b010-924948846709)
+
 
 **Tampilkan table :**
 
 `desc Matakuliah;`
 
-![alt text](Screenshot/6.png)
+![6](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/b55d391a-a7cc-4d16-a64e-f9cbd7574ac9)
 
 **4. Buat script untuk jadwal mengajar :**
 ```
@@ -98,13 +99,15 @@ create table JadwalMengajar (
     ); 
 ```
 
-![alt text](Screenshot/7.png)
+![7](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/69119949-13f8-4c90-953e-fd20ab7c6d43)
+
 
 **Tampilkan table :**
 
 `desc JadwalMengajar;`
 
-![alt text](Screenshot/8.png)
+![8](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/f1d78e06-3f80-451b-a72a-6595a3609135)
+
 
 **5. Buat script untuk KRSMahasiswa :**
 ```
@@ -121,13 +124,15 @@ CREATE TABLE KRSMahasiswa (
     );
 ```
 
-![alt text](Screenshot/9.png)
+![9](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/fa523765-e7fa-4375-8dca-f6089e837bda)
+
 
 **Tampilkan table :**
 
 `desc KRSMahasiswa;`
 
-![alt text](Screenshot/10.png)
+![10](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/4120c135-a075-403c-906b-8232c1ce0d6b)
+
 
 # Soal Latihan Praktikum
 
@@ -162,43 +167,50 @@ insert into Mahasiswa (nim, nama, jenis_kelamin, tgl_lahir, jalan, kota, kodepos
 -> (11223349,"anton sinaga","laki-laki","1988-03-10","","Cikarang","","","");
 ```
 
-![alt text](Screenshot/11.png)
+![11](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/41adbe6c-6301-4782-af13-e01953379b01)
+
 
 **2. Menampilkan semua isi/record pada tabel bisa menggunakan kode berikut :**
 
 `select*from Mahasiswa;`
 
-![alt text](Screenshot/12.png)
+![12](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/ec7ba6cf-86fa-4acd-8fcd-6a2ce29372ee)
+
 
 **3. Mengubah data tanggal lahir Mahasiswa yang bernama Ari menjadi : 1979-08-31 menggunakan kode berikut :**
 
 `update Mahasiswa set tgl_lahir='1979-08-31' where nim=11223344;`
 
-![alt text](Screenshot/13.png)
+![13](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/abc13295-82f0-4094-add2-b4e5ffb5f1f2)
+
 
 **4. Menampilkan satu baris / record data yang telah diubah tadi yaitu record dengan nama Ari saja dengan cara sebagai berikut :**
 
 `select*from Mahasiswa where nim=11223344;`
 
-![alt text](Screenshot/14.png)
+![14](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/955caec7-04fd-4e97-97b8-81e40a1f6ae0)
+
 
 **5. Menghapus Mahasiswa yang bernama Dina dengan cara sebagai berikut:**
 
 `delete from Mahasiswa where nim=11223346;`
 
-![alt text](Screenshot/15.png)
+![15](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/f7d334f8-edab-4ea9-a0da-57771afdc070)
+
 
 **6. Menampilkan record atau data yang tanggal kelahirannya lebih dari atau sama dengan 1996-1-2 dengan cara sebagai berikut :**
 
 `select*from Mahasiswa where tgl_lahir<='1996-1-2';`
 
-![alt text](Screenshot/16.png)
+![16](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/162a80b9-fe7d-47f6-8482-0d31c95439a5)
+
 
 **7. Menampilkan semua Mahasiswa yang berasal dari Bekasi dan berjenis kelamin perempuan dengan cara sebagai berikut :**
 
 `select*from Mahasiswa where kota='bekasi' and jenis_kelamin='Perempuan';`
 
-![alt text](Screenshot/17.png)
+![17](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/5c626fcc-de4a-4788-b98a-c67a31e9a410)
+
 
 **8. Menampilkan semua Mahasiswa yang berasal dari Bekasi dengan kelamin laki-laki atau Mahasiswa yang berumur lebih dari 22 tahun dengan kelamin wanita dengan cara sebagai berikut :**
 ```
@@ -207,19 +219,22 @@ or tgl_lahir<='2002-4-22'
 and jenis_kelamin='Perempuan';
 ```
 
-![alt text](Screenshot/18.png)
+![18](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/0b8fb64d-f606-497e-8bf5-5568c8ada9d8)
+
 
 **9. Menampilkan data nama dan jalan Mahasiswa saja dari tabel tersebut dengan cara sebagai berikut :**
 
 `select nama, jalan from Mahasiswa;`
 
-![alt text](Screenshot/19.png)
+![19](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/b4ca51e7-3140-4b70-be4d-9ec228abacda)
+
 
 **10. Menampilkan data Mahasiswa terurut berdasarkan nama dengan cara sebagai berikut :**
 
 `select*from Mahasiswa -> order by nama asc;`
 
-![alt text](Screenshot/20.png)
+![20](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/75ad5123-18d9-4d7a-9e11-ec25be453e92)
+
 
 # Evaluasi dan Pertanyaan
 
