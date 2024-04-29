@@ -248,7 +248,8 @@ and jenis_kelamin='Perempuan';
 
 `INSERT INTO biodata (nim, nama, alamat) VALUE ('1234','Uyun','Bekasi');`
 
-![alt text](Screenshot/21.png)
+![Screenshot 2024-04-30 001338](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/37394725-c117-4298-a98b-08260a365090)
+
 
 **2. Menampilkan data :**
 
@@ -258,7 +259,8 @@ and jenis_kelamin='Perempuan';
 
 `SELECT*FROM biodata;`
 
-![alt text](Screenshot/22.png)
+![Screenshot 2024-04-30 001407](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/74af146c-13ac-4106-bfbe-0323bdb13508)
+
 
 **3. Mengubah data :**
 
@@ -268,7 +270,8 @@ and jenis_kelamin='Perempuan';
 
 `UPDATE biodata SET nama='Nurul', alamat='Setu' WHERE nim='1234';`
 
-![alt text](Screenshot/23.png)
+![Screenshot 2024-04-30 002225](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/e1448548-e5ac-4b15-8139-290be037dc3c)
+
 
 **4. Menghapus data :**
 
@@ -278,25 +281,13 @@ and jenis_kelamin='Perempuan';
 
 `DELETE FROM biodata WHERE nim=‘1234’`
 
-![alt text](Screenshot/24.png)
+![Screenshot 2024-04-30 002407](https://github.com/Pynixz/Praktikum2.S2/assets/147568964/73fcf2c9-4bdf-4240-8ed2-1be162499233)
 
 ***Apa bedanya penggunaan BETWEEN dan penggunaan operator >= dan <= ?***
 
 - (misal: tgl_lahir BETWEEN '1990-10-10' AND '1992-10-11')
 
 - (misal: tgl_lahir >= '1990-10-10' AND tgl_lahir <= '1992-10-11')
-
-**Jawaban nya :**
-
-Operator BETWEEN ini untuk menangani operasi “jangkauan” sedangkan operator >= dan <= termasuk pada operator relasional. Operator yang digunakan untuk perbandingan antara dua buah nilai. Jenis dari operator ini adalah: = , >, <, >=, <=, <>
-
-***Berikan kesimpulan anda!***
-
-Data Manipulation Language (DML) adalah bahasa pemrograman yang digunakan untuk mengakses, memanipulasi, dan mengelola data dalam sebuah database. DML memungkinkan pengguna untuk melakukan operasi seperti penyisipan data baru, pembaruan data yang sudah ada, penghapusan data, dan kueri data untuk pengambilan informasi yang diperlukan.
-
-Dalam DML, pengguna dapat menggunakan perintah SQL (Structured Query Language) untuk mengakses data. SQL adalah bahasa standar untuk mengakses dan mengelola data dalam database relasional. Perintah SQL yang digunakan dalam DML termasuk menambah, mengubah, menghapus, dan menampilkan data seperti yang telah dipraktekkan diatas.
-
-***Buat laporan praktikum yang berisi, langkah-langkah praktikum beserta screenshot yang sudah dilakukan dalam bentuk dokumen.***
 
 <img src=https://pngimg.com/uploads/google_drive/google_drive_PNG9.png width="110px" >
 
